@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Font Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main class="auth-conatiner">
+    <div class="auth-banner">
+      <div class="content">
+        <h2>Try It For Free Today!</h2>
+        <span>No Credit Card Required. 30 Day Free Trial.</span>
+        <a href="#" class="btn-auth">CREATE ACCOUNT</a>
+      </div>
+    </div>
+    <div class="auth-content">
+      <form class="auth-form">
+        <div class="form-header">
+          <i class="material-icons">bolt</i>
+          <h2>Welcome Back!</h2>
+        </div>
+        <div class="form-gorup">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email" autocomplete="none">
+        </div>
+        <div class="form-gorup form-password-toggle">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+          <i class="material-icons" id="password_toggle">visibility</i>
+        </div>
+        <div class="form-check-forgot">
+          <div class="form-check">
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Stay Signed In</label>
+          </div>
+          <div class="form-forgot">
+            <i class="material-icons">lock</i>
+            <a href="#">Forgot Password?</a>
+          </div>
+        </div>
+        <button type="button" class="btn-auth">SIGN IN</button>
+      </form>
+      <div class="auth-footer">
+        <span>Created by &#64;vallidev • Copyright © 2023</span>
+        <div>
+          <a href="#">Terms of use</a>
+          <a href="#">Privacy policy</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
